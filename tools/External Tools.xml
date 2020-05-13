@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="bash" description="bash" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/bin/bash" />
+      <option name="PARAMETERS" value="sampleBash.sh" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/dev/dst/dst-cprs-web" />
+    </exec>
+  </tool>
+</toolSet>

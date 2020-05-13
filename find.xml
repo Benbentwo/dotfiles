@@ -1,0 +1,27 @@
+<application>
+  <component name="FindSettings">
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <mask>*.jsp</mask>
+    <mask>*.xml</mask>
+    <mask>*.as</mask>
+    <mask>*.css</mask>
+    <mask>*.mxml</mask>
+    <mask>*.yaml</mask>
+    <mask>*.properties</mask>
+    <mask>*.java</mask>
+    <mask>Chart.yaml</mask>
+    <mask>build.sh</mask>
+    <mask>values.yaml</mask>
+    <mask>deployment.yaml</mask>
+    <mask>*.go</mask>
+    <mask>*.js</mask>
+    <mask>Jenkinsfile*</mask>
+    <mask>*.html</mask>
+    <mask>*.md</mask>
+    <mask>*.yml</mask>
+    <mask>*.scss</mask>
+    <mask>*.json</mask>
+  </component>
+</application>

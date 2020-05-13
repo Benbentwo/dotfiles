@@ -1,0 +1,41 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="helpers" type="Bash" />
+      <mapping pattern="Dockerfile*" type="Dockerfile" />
+      <mapping pattern="Dockerfile-dev" type="Dockerfile" />
+      <mapping pattern="Dockerfile-drupal" type="Dockerfile" />
+      <mapping pattern="dockerfile-dev" type="Dockerfile" />
+      <mapping ext="dev" type="Dockerfile" />
+      <mapping ext="dockerfile" type="Dockerfile" />
+      <mapping ext="caseflow" type="Dockerfile" />
+      <mapping pattern="Jenkins*" type="Groovy" />
+      <mapping pattern="Jenkinsfile-preview" type="Groovy" />
+      <mapping ext="tmpl" type="Groovy" />
+      <mapping pattern="nav_list" type="HTML" />
+      <removed_mapping pattern="Jenkinsfile" approved="true" type="Jenkins file" />
+      <mapping pattern="local development" type="Markdown" />
+      <mapping pattern="NAME" type="PLAIN_TEXT" />
+      <mapping pattern="asdf" type="PLAIN_TEXT" />
+      <mapping pattern="cprs-api-url" type="PLAIN_TEXT" />
+      <mapping pattern="pluginInstallInit" type="PLAIN_TEXT" />
+      <mapping pattern="APPLICATION" type="PLAIN_TEXT" />
+      <mapping pattern="VERSION" type="PLAIN_TEXT" />
+      <mapping pattern="plugins" type="PLAIN_TEXT" />
+      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
+      <mapping pattern="CODEOWNERS" type="PLAIN_TEXT" />
+      <mapping pattern="nodejs-pod-template" type="PLAIN_TEXT" />
+      <mapping ext="asc" type="PLAIN_TEXT" />
+      <mapping ext="yamal" type="PLAIN_TEXT" />
+      <mapping ext="bak" type="PLAIN_TEXT" />
+      <mapping ext="pks" type="PLAIN_TEXT" />
+      <mapping ext="args" type="PLAIN_TEXT" />
+      <removed_mapping pattern="Jenkinsfile" approved="true" type="Jenkins file" />
+      <removed_mapping pattern="*Jenkins*" approved="true" type="Jenkins file" />
+      <removed_mapping ext="hpi" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern="Jenkinsfile-preview" approved="true" type="Jenkins file" />
+      <removed_mapping pattern="nav_list" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="mp4" approved="true" type="Rjs" />
+    </extensionMap>
+  </component>
+</application>
