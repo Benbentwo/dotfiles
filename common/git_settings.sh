@@ -2,9 +2,9 @@
 
 echo " --------------------------- Configuring git --------------------------- "
 git config --global core.excludesfile ~/.gitignore_global
-git config --global user.name "Max Lobur"
-git config --global user.email "max_lobur""@""outlook.com"
-git config --global core.editor "vi"
+git config --global user.name "Benjamin Smith"
+git config --global user.email "ben.smith.developer@gmail.com"
+git config --global core.editor "vim"
 git config --global core.filemode true
 git config --global color.ui true
 git config --global push.default simple
