@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9da7c6b0-3018-414d-af55-bcdc3ab5b130" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cleanup/20_packages_brew_cask.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mac/00_plists/com.apple.dock.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mac/00_plists/restart.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/git_settings.sh" beforeDir="false" afterPath="$PROJECT_DIR$/common/git_settings.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/init_mac.sh" beforeDir="false" afterPath="$PROJECT_DIR$/init_mac.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mac/20_packages_brew_cask.sh" beforeDir="false" afterPath="$PROJECT_DIR$/mac/20_packages_brew_cask.sh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1eY2gYKKtzLPUJRlCwE71Jagm9F" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mac/00_plists" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9da7c6b0-3018-414d-af55-bcdc3ab5b130" name="Default Changelist" comment="" />
+      <created>1594484317562</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594484317562</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="532" y="131" key="#Shell_Script" timestamp="1594484687969">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="532" y="131" key="#Shell_Script/0.23.1440.830@0.23.1440.830" timestamp="1594484687969" />
+    <state x="402" y="247" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594484531086">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="402" y="247" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.830@0.23.1440.830" timestamp="1594484531086" />
+    <state x="421" y="71" width="598" height="755" key="find.popup" timestamp="1594490655081">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="421" y="70" width="598" height="735" key="find.popup/0.23.1440.810@0.23.1440.810" timestamp="1594489909473" />
+    <state x="421" y="71" width="598" height="755" key="find.popup/0.23.1440.831@0.23.1440.831" timestamp="1594490655081" />
+    <state x="385" y="173" width="670" height="660" key="search.everywhere.popup" timestamp="1594485816252">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state x="385" y="173" width="670" height="660" key="search.everywhere.popup/0.23.1440.810@0.23.1440.810" timestamp="1594485816252" />
+    <state x="385" y="177" width="670" height="676" key="search.everywhere.popup/0.23.1440.830@0.23.1440.830" timestamp="1594484378585" />
+  </component>
+</project>
