@@ -17,4 +17,11 @@ bash ./common/packages_pip.sh
 bash ./common/setup_zsh.sh
 bash ./common/git_settings.sh
 
+echo "--------------------------- Copying Plist Configs"
+for plist in $(ls ./mac/00_plists/*.plist); do
+    echo "$plist"
+    cp $plist ~/Library/Preferences/
+done
+echo "--------------------------- Restarting Services"
+    bash ./mac/00_plists/restart.sh
 echo " --------------------------- DONE --------------------------- "
