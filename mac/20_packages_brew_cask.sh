@@ -29,6 +29,7 @@ brew cask install 1password     # Password Manager
 brew cask install appcleaner    # Thoroughly Remove Apps
 brew cask install balenaetcher  # Usb Flashing
 brew cask install clipy         # Clip Board Manager
+brew cask install discord
 brew cask install docker        # Good Shit
 brew cask install goland        # Best IDE for Best Lang
 brew cask install google-chrome # Good Shit
