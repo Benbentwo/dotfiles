@@ -36,6 +36,7 @@ brew cask install google-chrome # Good Shit
 brew cask install gpg-suite && sudo rm -rf /Library/Mail/Bundles/GPGMail.mailbundle
 brew cask install iterm2        # Good Shit
 brew cask install keybase       # Secure Messaging and Sharing
+brew cask install macdown       # Markdown editor
 brew cask install ngrok         # Public Urls to your machine
 brew cask install osxfuse && brew install sshfs # Mounts
 brew cask install pycharm
