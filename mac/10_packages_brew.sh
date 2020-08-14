@@ -29,6 +29,7 @@ brew install go
 brew install groovy
 brew install htop-osx
 brew install hstr
+brew install imagemagick
 brew install iperf
 brew install iperf3
 brew install python-yq
