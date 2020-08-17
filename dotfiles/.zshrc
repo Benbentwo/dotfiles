@@ -1,6 +1,6 @@
 export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="bira"
-plugins=(git docker kubectl aws brew docker-compose go golang helm iterm2)
+plugins=(git docker kubectl aws brew docker-compose golang helm iterm2)
 
 export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:$PATH
 source $ZSH/oh-my-zsh.sh
