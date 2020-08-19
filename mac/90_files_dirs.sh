@@ -11,5 +11,4 @@ mkdir -p $HOME/venvs
 mkdir -p $HOME/git
 mkdir -p $HOME/Install
 mkdir -p $HOME/Pictures4k
-mkdir -p $HOME/go
 

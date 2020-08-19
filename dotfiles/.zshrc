@@ -1,6 +1,6 @@
 export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="bira"
-plugins=(git docker kubectl aws brew docker-compose golang helm iterm2)
+plugins=(git docker kubectl)
 
 export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:$PATH
 source $ZSH/oh-my-zsh.sh
@@ -10,6 +10,7 @@ set -o ignoreeof
 
 # hstr
 export HISTFILE=~/.zsh_history
+export HISTTIMEFORMAT="%y-%m%d-%t "
 export HSTR_CONFIG=prompt-bottom,keywords-matching,raw-history-view
 export HSTR_PROMPT="bck-i-search: "
 bindkey -s "\C-r" "\eqhstr\n"
@@ -93,10 +94,7 @@ declare -x LSCOLORS="exExDxdxbxegedabagacad"
 ################################################################################
 # see: http://linux.101hacks.com/ps1-examples/prompt-color-using-tput/
 
-# declare -x BASH_COMPLETION_DEBUG=true
-if [ -f /usr/local/etc/bash_completion ]; then
-  . /usr/local/etc/bash_completion
-fi
+declare -x BASH_COMPLETION_DEBUG=true
 
 export RED='\033[0;31m'
 export NC='\033[0m' # No Color
@@ -151,6 +149,9 @@ alias ff="find ./ -type f -print0 | xargs -0 grep -l"
 alias dd='echo "find ./ -type f -print0 | xargs -0 grep -l "' 
 # alias dd='echo "find ./ -type f -print0 | xargs -0 grep -l " | pbcopy' 
 
+dotfiles() {
+    ls -a | egrep '^\.'
+}
 # usage `whatson <portnumber>` to find out the process binding a port
 whatson() {
   netstat -vanp tcp | grep $1
