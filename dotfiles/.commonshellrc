@@ -53,8 +53,8 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     export PATH=$PATH:~/git/dotfiles/sh:~/Dropbox/shell_helpers
 
     # Go Envs
-    export GOPATH=$HOME/go
-    export PATH=$GOPATH/bin:$PATH
+#    export GOPATH=$HOME/go
+#    export PATH=$GOPATH/bin:$PATH
 
     # Predictable SSH authentication socket location.
     SOCK="$HOME/.ssh/agent_sock"

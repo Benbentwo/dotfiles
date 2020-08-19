@@ -78,8 +78,10 @@ source ~/.commonshellrc
 export PATH="/usr/local/sbin:$PATH"
 
 # GO
-export GOPATH="$HOME/Dev"
-
+#export GOPATH="$HOME/Dev"
+source ~/.gorc
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin
 
 # Ben's Bash Profile Stuff
 

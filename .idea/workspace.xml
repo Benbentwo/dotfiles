@@ -27,17 +27,15 @@
   <component name="ChangeListManager">
     <list default="true" id="9da7c6b0-3018-414d-af55-bcdc3ab5b130" name="Default Changelist" comment="fixing rc files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dotfiles/.commonshellrc" beforeDir="false" afterPath="$PROJECT_DIR$/dotfiles/.commonshellrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dotfiles/.zshrc" beforeDir="false" afterPath="$PROJECT_DIR$/dotfiles/.zshrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/init_centos.sh" beforeDir="false" afterPath="$PROJECT_DIR$/init_centos.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mac/90_files_dirs.sh" beforeDir="false" afterPath="$PROJECT_DIR$/mac/90_files_dirs.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mac/99_mac_settings.sh" beforeDir="false" afterPath="$PROJECT_DIR$/mac/99_mac_settings.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="GOROOT" path="/usr/local/Cellar/go/1.14.2_1/libexec" />
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.15/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -55,6 +53,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/mac/00_plists" />
+    <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -138,19 +137,24 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="457" y="136" key="RollbackChangesDialog/0.23.1440.822@0.23.1440.822" timestamp="1597849020882" />
+    <state x="221" y="65" key="SettingsEditor" timestamp="1597857060488">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state x="221" y="65" key="SettingsEditor/0.23.1440.810@0.23.1440.810" timestamp="1597857060488" />
     <state x="450" y="131" key="VCS.ChangeListViewerDialog" timestamp="1597850584320">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state x="450" y="131" key="VCS.ChangeListViewerDialog/0.23.1440.810@0.23.1440.810" timestamp="1597850584320" />
-    <state x="320" y="166" key="Vcs.Push.Dialog.v2" timestamp="1597429466324">
-      <screen x="0" y="23" width="1440" height="807" />
+    <state x="320" y="167" key="Vcs.Push.Dialog.v2" timestamp="1597851071554">
+      <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state x="320" y="166" key="Vcs.Push.Dialog.v2/0.23.1440.807@0.23.1440.807" timestamp="1597429466324" />
-    <state x="421" y="70" width="598" height="735" key="find.popup" timestamp="1597850257110">
+    <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.810@0.23.1440.810" timestamp="1597851071554" />
+    <state x="421" y="70" width="598" height="735" key="find.popup" timestamp="1597856947600">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state x="421" y="70" width="598" height="734" key="find.popup/0.23.1440.807@0.23.1440.807" timestamp="1597682329953" />
-    <state x="421" y="70" width="598" height="735" key="find.popup/0.23.1440.810@0.23.1440.810" timestamp="1597850257110" />
+    <state x="421" y="70" width="598" height="735" key="find.popup/0.23.1440.810@0.23.1440.810" timestamp="1597856947600" />
     <state x="421" y="71" width="598" height="746" key="find.popup/0.23.1440.822@0.23.1440.822" timestamp="1597849074579" />
     <state x="421" y="71" width="598" height="755" key="find.popup/0.23.1440.831@0.23.1440.831" timestamp="1597687556606" />
     <state x="385" y="173" width="670" height="660" key="search.everywhere.popup" timestamp="1597850547076">
