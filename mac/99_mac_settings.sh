@@ -44,7 +44,12 @@ touch /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
 sudo softwareupdate -ai
 rm /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
 
+# Show Dotfiles in Finder
+defaults write com.apple.Finder AppleShowAllFiles true
+killall Finder
+
 #Store screenshots in subfolder on desktop
+
 mkdir ~/Desktop/Screenshots
 defaults write com.apple.screencapture location ~/Desktop/Screenshots
 
