@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+#mv mac/10_packages_brew.sh mac/10_packages_brew.sh.bak; (head -n 7 mac/10_packages_brew.sh.bak && tail -n +8 mac/10_packages_brew.sh.bak | sort) > mac/10_packages_brew.sh; #rm mac/10_packages_brew.sh.bak
 if ! command -v brew 2>/dev/null; then
     sudo xcode-select --install
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -20,6 +20,7 @@ brew install direnv
 brew install flatbuffers
 brew install git
 brew install git-lfs
+brew install gh
 brew install grpcurl
 brew install --force gettext # envsubst
 brew link --force gettext
