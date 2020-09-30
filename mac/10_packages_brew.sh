@@ -33,10 +33,14 @@ brew install hstr
 brew install imagemagick
 brew install iperf
 brew install iperf3
+brew isntall libtool
+brew link libtool
 brew install python-yq
 brew install --HEAD jq
 brew install hub
 brew install fkafkacat
+brew install graphviz
+brew link --overwrite graphviz
 brew install kubernetes-cli
 brew install kubernetes-helm
 brew install kubectx
