@@ -34,7 +34,7 @@ brew install hstr
 brew install imagemagick
 brew install iperf
 brew install iperf3
-brew isntall libtool
+brew install libtool
 brew link libtool
 brew install python-yq
 brew install --HEAD jq

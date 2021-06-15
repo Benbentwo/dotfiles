@@ -29,6 +29,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dotfiles/.commonshellrc" beforeDir="false" afterPath="$PROJECT_DIR$/dotfiles/.commonshellrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dotfiles/.zshrc" beforeDir="false" afterPath="$PROJECT_DIR$/dotfiles/.zshrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/init_mac.sh" beforeDir="false" afterPath="$PROJECT_DIR$/init_mac.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mac/10_packages_brew.sh" beforeDir="false" afterPath="$PROJECT_DIR$/mac/10_packages_brew.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mac/20_packages_brew_cask.sh" beforeDir="false" afterPath="$PROJECT_DIR$/mac/20_packages_brew_cask.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,50 +121,5 @@
     <MESSAGE value="adding image magic brew and updating Gitreview" />
     <MESSAGE value="fixing rc files" />
     <option name="LAST_COMMIT_MESSAGE" value="fixing rc files" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="532" y="131" key="#Shell_Script" timestamp="1594484687969">
-      <screen x="0" y="23" width="1440" height="830" />
-    </state>
-    <state x="532" y="131" key="#Shell_Script/0.23.1440.830@0.23.1440.830" timestamp="1594484687969" />
-    <state x="402" y="242" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597848105825">
-      <screen x="0" y="23" width="1440" height="810" />
-    </state>
-    <state x="402" y="242" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.810@0.23.1440.810" timestamp="1597848105825" />
-    <state x="402" y="247" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.830@0.23.1440.830" timestamp="1594484531086" />
-    <state x="100" y="123" width="1240" height="607" key="DiffContextDialog" timestamp="1597850609099">
-      <screen x="0" y="23" width="1440" height="810" />
-    </state>
-    <state x="100" y="123" width="1240" height="607" key="DiffContextDialog/0.23.1440.810@0.23.1440.810" timestamp="1597850609099" />
-    <state x="457" y="136" key="RollbackChangesDialog" timestamp="1597849020883">
-      <screen x="0" y="23" width="1440" height="822" />
-    </state>
-    <state x="457" y="136" key="RollbackChangesDialog/0.23.1440.822@0.23.1440.822" timestamp="1597849020882" />
-    <state x="221" y="65" key="SettingsEditor" timestamp="1597857060488">
-      <screen x="0" y="23" width="1440" height="810" />
-    </state>
-    <state x="221" y="65" key="SettingsEditor/0.23.1440.810@0.23.1440.810" timestamp="1597857060488" />
-    <state x="450" y="131" key="VCS.ChangeListViewerDialog" timestamp="1597850584320">
-      <screen x="0" y="23" width="1440" height="810" />
-    </state>
-    <state x="450" y="131" key="VCS.ChangeListViewerDialog/0.23.1440.810@0.23.1440.810" timestamp="1597850584320" />
-    <state x="320" y="167" key="Vcs.Push.Dialog.v2" timestamp="1597851071554">
-      <screen x="0" y="23" width="1440" height="810" />
-    </state>
-    <state x="320" y="166" key="Vcs.Push.Dialog.v2/0.23.1440.807@0.23.1440.807" timestamp="1597429466324" />
-    <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.810@0.23.1440.810" timestamp="1597851071554" />
-    <state x="421" y="70" width="598" height="735" key="find.popup" timestamp="1597856947600">
-      <screen x="0" y="23" width="1440" height="810" />
-    </state>
-    <state x="421" y="70" width="598" height="734" key="find.popup/0.23.1440.807@0.23.1440.807" timestamp="1597682329953" />
-    <state x="421" y="70" width="598" height="735" key="find.popup/0.23.1440.810@0.23.1440.810" timestamp="1597856947600" />
-    <state x="421" y="71" width="598" height="746" key="find.popup/0.23.1440.822@0.23.1440.822" timestamp="1597849074579" />
-    <state x="421" y="71" width="598" height="755" key="find.popup/0.23.1440.831@0.23.1440.831" timestamp="1597687556606" />
-    <state x="385" y="173" width="670" height="660" key="search.everywhere.popup" timestamp="1597850547076">
-      <screen x="0" y="23" width="1440" height="810" />
-    </state>
-    <state x="385" y="172" width="670" height="658" key="search.everywhere.popup/0.23.1440.807@0.23.1440.807" timestamp="1597687467574" />
-    <state x="385" y="173" width="670" height="660" key="search.everywhere.popup/0.23.1440.810@0.23.1440.810" timestamp="1597850547076" />
-    <state x="385" y="177" width="670" height="676" key="search.everywhere.popup/0.23.1440.830@0.23.1440.830" timestamp="1594484378585" />
   </component>
 </project>

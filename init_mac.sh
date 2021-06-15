@@ -9,6 +9,8 @@ done
 
 # 2) os-specific
 for f in $(ls ./mac/); do
+#  if [[ $f == "./mac/00_plists" ]]
+    [[ $f == "00_plists" ]] && continue;
     bash ./mac/"$f"
 done
 
