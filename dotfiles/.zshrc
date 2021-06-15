@@ -80,7 +80,6 @@ source ~/.commonshellrc
 export PATH="/usr/local/sbin:$PATH"
 
 # GO
-#export GOPATH="$HOME/Dev"
 source ~/.gorc
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
@@ -243,52 +242,6 @@ remove_evicted() {
 }
 
 ## Looks for ambassador on your default namespace and gets the pod, then port forwards it and opens the ui for you.
-ambyadmin() {
-  local ambypod=$(kubectl get po | grep ambassador | tail -n 1 | awk -F ' ' '{print$1}')
-  echo "forwarding $ambypod"
-  open http://localhost:8877/ambassador/v0/diag/
-  kubectl port-forward $ambypod 8877
-}
-
-kubectldash() {
-  kubectl apply -f https://raw.githubusercontent.com/kubernetes/heapster/master/deploy/kube-config/rbac/heapster-rbac.yaml
-  kubectl create -f https://raw.githubusercontent.com/kubernetes/heapster/master/deploy/kube-config/influxdb/influxdb.yaml
-  kubectl create -f https://raw.githubusercontent.com/kubernetes/heapster/master/deploy/kube-config/influxdb/grafana.yaml
-  kubectl create -f https://raw.githubusercontent.com/kubernetes/heapster/master/deploy/kube-config/influxdb/heapster.yaml
-  kubectl create -f https://raw.githubusercontent.com/kubernetes/kops/master/addons/kubernetes-dashboard/v1.6.3.yaml
-
-#  kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0-beta1/aio/deploy/recommended.yaml
-  kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v1.10.1/src/deploy/recommended/kubernetes-dashboard.yaml
-  kubectl proxy &
-  kubectl apply -f ~/dev/dashboard-admin.yaml
-  dashboardtoken
-  open http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/
-#  kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | awk '/^deployment-controller-token-/{print $1}') | awk '$1=="token:"{print $2}' | head -n 1 | pbcopy
-}
-killdash() {
-  kubectl -n kube-system delete clusterrolebinding heapster
-
-  kubectl -n kube-system delete svc monitoring-influxdb
-  kubectl -n kube-system delete deployment monitoring-influxdb
-
-  kubectl -n kube-system delete svc monitoring-grafana
-  kubectl -n kube-system delete deployment monitoring-grafana
-
-  kubectl -n kube-system delete svc heapster
-  kubectl -n kube-system delete deployment heapster
-  kubectl -n kube-system delete serviceaccount heapster
-
-  kubectl -n kube-system delete serviceaccount kubernetes-dashboard
-  kubectl -n kube-system delete ClusterRoleBinding kubernetes-dashboard
-  kubectl -n kube-system delete deployment kubernetes-dashboard
-  kubectl -n kube-system delete svc kubernetes-dashboard
-
-  whatson 8001 | awk '{print $9}' | xargs kill
-}
-## Generates a kube dashboard token and puts it on your clipboard
-dashboardtoken() {
-  kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep admin-user | awk '{print $1}') | grep token | tail -n 1 | awk -F ' ' '{print $2}' | pbcopy
-}
 
 generateAwsToken ()
 {
@@ -298,25 +251,6 @@ generateAwsToken ()
     DOCKER_PASSWORD=$(aws ecr get-login --region ${AWS_REGION} --registry-ids ${AWS_ACCOUNT} | awk -F ' ' '{ print $6}');
     echo $DOCKER_PASSWORD | pbcopy;
     echo $DOCKER_PASSWORD
-}
-
-aws_login()
-{
-  aws ecr get-login  --registry-ids ${AWS_ACCOUNT} --region ${AWS_REGION} --no-include-email | bash
-# Add lines above for each AWS Account
-# Alternatively add duplicate lines here by profile `--profile X`.
-}
-
-# Nice to have for local enivronment kube cluster
-installtiller() {
-  kubectl -n kube-system create serviceaccount tiller # Cluster Control Permissions
-
-  kubectl create clusterrolebinding tiller \
-    --clusterrole=cluster-admin \
-    --serviceaccount=kube-system:tiller # Cluster Control Permissions
-
-  helm init --service-account tiller # Deployment
-
 }
 
 ####################################

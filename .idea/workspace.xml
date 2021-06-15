@@ -25,8 +25,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9da7c6b0-3018-414d-af55-bcdc3ab5b130" name="Default Changelist" comment="hotfixing cask and some other issues">
+    <list default="true" id="9da7c6b0-3018-414d-af55-bcdc3ab5b130" name="Default Changelist" comment="sublime-text added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dotfiles/.zshrc" beforeDir="false" afterPath="$PROJECT_DIR$/dotfiles/.zshrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mac/20_packages_brew_cask.sh" beforeDir="false" afterPath="$PROJECT_DIR$/mac/20_packages_brew_cask.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,6 +118,7 @@
     <MESSAGE value="adding image magic brew and updating Gitreview" />
     <MESSAGE value="fixing rc files" />
     <MESSAGE value="hotfixing cask and some other issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="hotfixing cask and some other issues" />
+    <MESSAGE value="sublime-text added" />
+    <option name="LAST_COMMIT_MESSAGE" value="sublime-text added" />
   </component>
 </project>

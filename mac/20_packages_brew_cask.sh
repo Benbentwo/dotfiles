@@ -27,6 +27,7 @@ isTouchBarMac() {
 #brew install --cask virtualbox-extension-pack
 #cask install sidestep # Securing public wifi
 #cask install transmit # FTP client
+brew install --cask authy         # Authy for MFA
 brew install --cask 1password     # Password Manager
 brew install --cask appcleaner    # Thoroughly Remove Apps
 brew install --cask balenaetcher  # Usb Flashing
