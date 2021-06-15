@@ -46,6 +46,7 @@ brew install --cask scroll-reverser   # Good Shit
 brew install --cask spectacle         # Window Resize and Management
 brew install --cask spotify       # Good Shit
 brew install --cask spotmenu      # Good Shit
+brew install --cask sublime-text
 brew install --cask the-unarchiver
 brew install --cask tor-browser
 brew install --cask visual-studio-code

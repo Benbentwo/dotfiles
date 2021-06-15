@@ -25,12 +25,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9da7c6b0-3018-414d-af55-bcdc3ab5b130" name="Default Changelist" comment="fixing rc files">
+    <list default="true" id="9da7c6b0-3018-414d-af55-bcdc3ab5b130" name="Default Changelist" comment="hotfixing cask and some other issues">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotfiles/.commonshellrc" beforeDir="false" afterPath="$PROJECT_DIR$/dotfiles/.commonshellrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotfiles/.zshrc" beforeDir="false" afterPath="$PROJECT_DIR$/dotfiles/.zshrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/init_mac.sh" beforeDir="false" afterPath="$PROJECT_DIR$/init_mac.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mac/10_packages_brew.sh" beforeDir="false" afterPath="$PROJECT_DIR$/mac/10_packages_brew.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mac/20_packages_brew_cask.sh" beforeDir="false" afterPath="$PROJECT_DIR$/mac/20_packages_brew_cask.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +44,6 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TF_FMT" value="false" />
@@ -66,6 +61,7 @@
       <recent name="$PROJECT_DIR$/mac/00_plists" />
     </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -102,7 +98,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -120,6 +116,7 @@
     <MESSAGE value="adding macodwn" />
     <MESSAGE value="adding image magic brew and updating Gitreview" />
     <MESSAGE value="fixing rc files" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing rc files" />
+    <MESSAGE value="hotfixing cask and some other issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="hotfixing cask and some other issues" />
   </component>
 </project>
